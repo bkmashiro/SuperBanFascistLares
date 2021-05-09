@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBanFascistLares", "SuperBanFascistLares\SuperBanFascistLares.csproj", "{D0783917-BE00-4F16-A4FB-E833E4DA8236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FascistLaresLServerMoudle", "FascistLaresLServerMoudle\FascistLaresLServerMoudle.csproj", "{9A6F4E9E-3CFA-45F0-89B3-F17FCDFAE730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0783917-BE00-4F16-A4FB-E833E4DA8236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0783917-BE00-4F16-A4FB-E833E4DA8236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0783917-BE00-4F16-A4FB-E833E4DA8236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0783917-BE00-4F16-A4FB-E833E4DA8236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6F4E9E-3CFA-45F0-89B3-F17FCDFAE730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6F4E9E-3CFA-45F0-89B3-F17FCDFAE730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6F4E9E-3CFA-45F0-89B3-F17FCDFAE730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6F4E9E-3CFA-45F0-89B3-F17FCDFAE730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7532F7D-7B28-4EBE-8C5E-CDF46FCD5EA1}
+	EndGlobalSection
+EndGlobal
